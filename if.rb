@@ -1,9 +1,9 @@
 x = gets
 x = x.to_i
-if x < 2
-puts "the digit <2"
-elsif x == 2
-puts "the digit =2"
+if x < 3
+puts "the digit <3"
+elsif x == 3
+puts "the digit =3"
 else
-puts "the digit >2"
+puts "the digit >3"
 end
