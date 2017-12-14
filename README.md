@@ -1,2 +1,2 @@
-# ruby.study
 # hello,ruby
+# hello,world
