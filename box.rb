@@ -10,10 +10,18 @@ class Box
   def printHeight
     @height
   end
+  
+  def setWidth=(value)
+    @width = value
+  end
+  def setHeight=(value)
+    @height = value
+  end
 end
 
 box = Box.new(10,20)
-
+box.setWidth=30
+box.setHeight=50
 x = box.printWidth()
 y = box.printHeight()
 
